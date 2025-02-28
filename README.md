@@ -1,6 +1,3 @@
-Here’s the Markdown content with explicit headings (`#`, `##`) and code block delimiters (```) as raw text, so you can easily copy and paste it into your Colab notebook or elsewhere. I’ve preserved the exact formatting you requested.
-
-```
 # AI Video Generation with Wan2.1
 
 **Author**: Jad Tounsi El Azzoiani  
@@ -69,13 +66,5 @@ while process.poll() is None:
 stdout, stderr = process.communicate()
 print("Output:", stdout)
 print("Errors:", stderr)
-```
-```
+'''
 
-### Instructions
-- Copy the entire block above.
-- Paste it into a Colab Markdown cell (or a `.md` file).
-- Colab will render the `#` and `##` as headings, bold the `**Author**` text, and format the code blocks with syntax highlighting (bash/python).
-- Run the code sections in separate code cells to execute them.
-
-Let me know if you need help running it or adding more sections!
